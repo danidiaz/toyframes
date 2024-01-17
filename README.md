@@ -5,7 +5,7 @@
 
 - Some relevant modules from `base`:
     - [`Data.Typeable`](https://hackage.haskell.org/package/base-4.19.0.0/docs/Data-Typeable.html) 
-    - [`Type.Reflection`](https://hackage.haskell.org/package/base-4.19.0.0/docs/Type-Reflection.html) that provides a more "powerful", type-indexed version of the `TypeRep`s from `Data.Typeable`, 
+    - [`Type.Reflection`](https://hackage.haskell.org/package/base-4.19.0.0/docs/Type-Reflection.html) that provides a more "powerful", [type-indexed](https://hackage.haskell.org/package/base-4.19.0.0/docs/Type-Reflection.html#t:TypeRep) version of the [`TypeRep`s](https://hackage.haskell.org/package/base-4.19.0.0/docs/Data-Typeable.html#t:TypeRep) from [`Data.Typeable`](https://hackage.haskell.org/package/base-4.19.0.0/docs/Data-Typeable.html), 
     - [`Data.Dynamic`](https://hackage.haskell.org/package/base-4.19.0.0/docs/Data-Dynamic.html) 
     - [`Data.Type.Equality`](https://hackage.haskell.org/package/base-4.19.0.0/docs/Data-Type-Equality.html) that provides [`testEquality`](https://hackage.haskell.org/package/base-4.19.0.0/docs/Data-Type-Equality.html#v:testEquality).
 

@@ -37,7 +37,7 @@ data ApplyError
     -- from 'Data.Typeable' (the latter is a type synonym for the former).
     --
     -- The 'TypeRep' from 'Type.Reflection' is statically indexed by the type,
-    -- the one from 'Data.Typeable' doesn't.
+    -- the one from 'Data.Typeable' isn't.
     TypeMismatch SomeTypeRep SomeTypeRep
 
 apply :: forall b. (Typeable b) => DataFrame -> ColumnName -> (b -> b) -> Either ApplyError DataFrame

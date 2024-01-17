@@ -19,7 +19,7 @@ data SomeFrameList where
 type ColumnName = Text
 
 data DataFrame = DataFrame
-  { columns :: Map Text SomeFrameList
+  { columns :: Map ColumnName SomeFrameList
   }
 
 data ApplyError

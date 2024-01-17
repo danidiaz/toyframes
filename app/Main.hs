@@ -59,7 +59,7 @@ apply DataFrame {columns} columnName f =
               Nothing ->
                 Left $
                   TypeMismatch (SomeTypeRep repb) (SomeTypeRep repa)
-              -- By the GADT magic of matching on the evidence :~: that the types are equal,
+              -- Thanks to the GADT magic of matching on the evidence :~: that the types are equal,
               -- while inside the pattern match, GHC *knows* that 'a' and 'b' are the same type,
               -- which allows us to apply the function!
               --

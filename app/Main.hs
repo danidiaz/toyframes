@@ -64,7 +64,7 @@ apply DataFrame {columns} columnName f =
               -- which allows us to apply the function!
               --
               -- Outside of the 'Refl' pattern match, GHC considers the types to be
-              -- different and trying to apply the function would result in a type error.
+              -- different and trying to apply the function would result in a compilation error.
               Just Refl ->
                 Right $
                   Just $
